@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Beauty by Jernie</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Muli:400,700|Playfair+Display:400,900&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="fonts/icomoon/style.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css" />
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css" />
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css" />
+    <link rel="stylesheet" href="css/aos.css" />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <script nonce="237462aa-5c22-4f82-b9d5-2a075c0f64f6">
+      ;(function (w, d) {
+        !(function (bt, bu, bv, bw) {
+          bt[bv] = bt[bv] || {}
+          bt[bv].executed = []
+          bt.zaraz = { deferred: [], listeners: [] }
+          bt.zaraz.q = []
+          bt.zaraz._f = function (bx) {
+            return function () {
+              var by = Array.prototype.slice.call(arguments)
+              bt.zaraz.q.push({ m: bx, a: by })
+            }
+          }
+          for (const bz of ['track', 'set', 'debug'])
+            bt.zaraz[bz] = bt.zaraz._f(bz)
+          bt.zaraz.init = () => {
+            var bA = bu.getElementsByTagName(bw)[0],
+              bB = bu.createElement(bw),
+              bC = bu.getElementsByTagName('title')[0]
+            bC && (bt[bv].t = bu.getElementsByTagName('title')[0].text)
+            bt[bv].x = Math.random()
+            bt[bv].w = bt.screen.width
+            bt[bv].h = bt.screen.height
+            bt[bv].j = bt.innerHeight
+            bt[bv].e = bt.innerWidth
+            bt[bv].l = bt.location.href
+            bt[bv].r = bu.referrer
+            bt[bv].k = bt.screen.colorDepth
+            bt[bv].n = bu.characterSet
+            bt[bv].o = new Date().getTimezoneOffset()
+            if (bt.dataLayer)
+              for (const bG of Object.entries(
+                Object.entries(dataLayer).reduce(
+                  (bH, bI) => ({ ...bH[1], ...bI[1] }),
+                  {}
+                )
+              ))
+                zaraz.set(bG[0], bG[1], { scope: 'page' })
+            bt[bv].q = []
+            for (; bt.zaraz.q.length; ) {
+              const bJ = bt.zaraz.q.shift()
+              bt[bv].q.push(bJ)
+            }
+            bB.defer = !0
+            for (const bK of [localStorage, sessionStorage])
+              Object.keys(bK || {})
+                .filter((bM) => bM.startsWith('_zaraz_'))
+                .forEach((bL) => {
+                  try {
+                    bt[bv]['z_' + bL.slice(7)] = JSON.parse(bK.getItem(bL))
+                  } catch {
+                    bt[bv]['z_' + bL.slice(7)] = bK.getItem(bL)
+                  }
+                })
+            bB.referrerPolicy = 'origin'
+            bB.src =
+              '../../cdn-cgi/zaraz/sd0d9.js?z=' +
+              btoa(encodeURIComponent(JSON.stringify(bt[bv])))
+            bA.parentNode.insertBefore(bB, bA)
+          }
+          ;['complete', 'interactive'].includes(bu.readyState)
+            ? zaraz.init()
+            : bt.addEventListener('DOMContentLoaded', zaraz.init)
+        })(w, d, 'zarazData', 'script')
+      })(window, document)
+    </script>
+  </head>
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+    <div class="site-wrap" id="home-section">
+      <div class="site-mobile-menu site-navbar-target">
+        <div class="site-mobile-menu-header">
+          <div class="site-mobile-menu-close mt-3">
+            <span class="icon-close2 js-menu-toggle"></span>
+          </div>
+        </div>
+        <div class="site-mobile-menu-body"></div>
+      </div>
+      <header class="site-navbar site-navbar-target" role="banner">
+        <div class="container">
+          <div class="row align-items-center position-relative">
+            <div class="col-3">
+              <div class="site-logo serif">
+                <a href="index-2.html">Jernie</a>
+              </div>
+            </div>
+            <div class="col-9 text-right">
+              <span class="d-inline-block d-lg-none"
+                ><a
+                  href="#"
+                  class="text-white site-menu-toggle js-menu-toggle py-5 text-white"
+                  ><span class="icon-menu h3 text-white"></span></a
+              ></span>
+              <nav
+                class="site-navigation text-right ml-auto d-none d-lg-block"
+                role="navigation"
+              >
+                <ul class="site-menu main-menu js-clone-nav ml-auto">
+                  <li class="active">
+                    <a href="index-2.html" class="nav-link">Home</a>
+                  </li>
+                  <li><a href="about.html" class="nav-link">About</a></li>
+                  <li><a href="services.html" class="nav-link">Services</a></li>
+                  <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+                  <!-- <li><a href="blog.html" class="nav-link">Blog</a></li> -->
+                  <li><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div class="ftco-blocks-cover-1">
+        <div
+          class="site-section-cover overlay"
+          data-stellar-background-ratio="0.5"
+          style="background-image: url('images/hero_4.webp')"
+        >
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-md-7">
+                <h1 class="mb-3">Enhance your inner beauty</h1>
+                <p>
+                  With a little help from Beauty by Jernie, you'll leave our
+                  beauty salon looking and feeling gorgeous.
+                </p>
+                <p><a href="#" class="btn btn-primary">Learn More</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="site-section">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-5 mr-auto">
+              <h2 class="serif font-weight-bold mb-3">Beauty by Jernie</h2>
+              <p class="font-weight-bold">
+                We are a beauty enhancement brand. We do all kinds of brows and
+                lash extensions. Lip blush, waxing as well as mini tattoos.
+              </p>
+              <p>
+                Our mission is to help enhance your inner beauty through our
+                fabulous range of affordable beauty treatments and therapies.
+              </p>
+              <div class="social_29128">
+                <a href="#"><span class="icon-twitter"></span></a>
+                <a href="#"><span class="icon-instagram"></span></a>
+                <!-- <a href="#"><span class="icon-facebook"></span></a> -->
+                <a href="#"><span class="icon-whatsapp"></span></a>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="d-flex align-items-center">
+                <div
+                  class="bg-img-1 mr-md-4 mt-md-5"
+                  style="background-image: url('images/about_4.jpg')"
+                ></div>
+                <div
+                  class="bg-img-1"
+                  style="background-image: url('images/about_2.jpg')"
+                ></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="site-section">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <h2
+                class="heading-border-bottom font-weight-bold serif text-black mb-5 text-center"
+              >
+                Our Services
+              </h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+              <div class="service_13987">
+                <a href="#" class="mb-3 d-block"
+                  ><img src="images/brows_2.jpg" alt="Image" class="img-fluid"
+                /></a>
+                <div class="text">
+                  <h3 class="serif mb-3">Semi-Permanent Brows</h3>
+                  <p>
+                    We do all kinds of brows depending on your budget and what
+                    you want.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+              <div class="service_13987">
+                <a href="#" class="mb-3 d-block"
+                  ><img src="images/lashes.jpg" alt="Image" class="img-fluid"
+                /></a>
+                <div class="text">
+                  <h3 class="serif mb-3">Semi-Permanent Lashes</h3>
+                  <p>
+                    We do all kinds of semi-permanent lashes depending on what
+                    you want and also your budget.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+              <div class="service_13987">
+                <a href="#" class="mb-3 d-block"
+                  ><img src="images/blush.jpg" alt="Image" class="img-fluid"
+                /></a>
+                <div class="text">
+                  <h3 class="serif mb-3">Lip Blush</h3>
+                  <p>
+                    This involves adding color to the lips to make it brighter.
+                    Guys are not left out as you can get this done.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+              <div class="service_13987">
+                <a href="#" class="mb-3 d-block"
+                  ><img src="images/wax.jpg" alt="Image" class="img-fluid"
+                /></a>
+                <div class="text">
+                  <h3 class="serif mb-3">Wax</h3>
+                  <p>
+                    We wax every area of the body that has hairs. Constant
+                    waxing makes the hair grow thinner and in time causes a
+                    smother and brighter skin.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="site-section services_294491">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-8 text-center">
+              <h2 class="serif text-white font-weight-bold text-primary">
+                Get 20% discount
+              </h2>
+              <p class="lead">
+                Lorem ipsum doltnor sit amet, consectetur adipisicing elit.
+              </p>
+              <p><a href="#" class="btn btn-primary">Contact us</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="site-section bg-image overlay features_75651"
+        style="background-image: url('images/hero_4.webp')"
+      >
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <h2
+                class="heading-border-bottom font-weight-bold serif text-white mb-5"
+              >
+                Explore our services.
+              </h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 mb-4 mb-lg-0 col-lg-3">
+              <div class="block_75651">
+                <!-- <div class="wrap-icon">
+                  <span class="flaticon-towel"></span>
+                </div> -->
+                <div class="text">
+                  <h3>highly trained therapists</h3>
+                  <p>
+                    Beauty by Jernie has a staff of incredibly talented beauty
+                    therapists to pamper you and bring out your inner beauty.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 mb-4 mb-lg-0 col-lg-3">
+              <div class="block_75651">
+                <!-- <div class="wrap-icon">
+                  <span class="flaticon-candle"></span>
+                </div> -->
+                <div class="text">
+                  <h3>Holistic approach</h3>
+                  <p>
+                    At Beauty by Jernie, we take a holistic approach to beauty.
+                    We offer a wide range of treatments to help you relax and
+                    unwind.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 mb-4 mb-lg-0 col-lg-3">
+              <div class="block_75651">
+                <!-- <div class="wrap-icon">
+                  <span class="flaticon-bathrobe"></span>
+                </div> -->
+                <div class="text">
+                  <h3>Amazing Value</h3>
+                  <p>
+                    Not only do we offer you 10% discount if you're a student,
+                    we also run regular promotions too. Check our social media
+                    pages to find out the latest offers.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 mb-4 mb-lg-0 col-lg-3">
+              <div class="block_75651">
+                <!-- <div class="wrap-icon">
+                  <span class="flaticon-hot-stones"></span>
+                </div> -->
+                <div class="text">
+                  <h3>Something for everyone</h3>
+                  <p>
+                    From facials and makeup to waxing, we offer affordable
+                    beauty treatments for all occasions, to suit everyone.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="site-section">
+        <div class="text-center">
+          <h2
+            class="heading-border-bottom font-weight-bold serif text-black mb-5 text-center"
+          >
+            Testimonials
+          </h2>
+        </div>
+        <div class="nonloop-block-13 owl-carousel d-flex">
+          <div>
+            <div class="testimonial-2">
+              <div class="d-flex v-card align-items-center mb-4">
+                <img
+                  src="images/person_1.jpg"
+                  alt="Image"
+                  class="img-fluid mr-3"
+                />
+                <span>Patience</span>
+              </div>
+              <blockquote>
+                <p>
+                  "The treatments are always to perfection..my skin has healed
+                  plus the brows are getting prettier by the day"
+                </p>
+              </blockquote>
+            </div>
+          </div>
+          <div>
+            <div class="testimonial-2">
+              <div class="d-flex v-card align-items-center mb-4">
+                <img
+                  src="images/person_2.jpg"
+                  alt="Image"
+                  class="img-fluid mr-3"
+                />
+                <span>Ollyy</span>
+              </div>
+              <blockquote>
+                <p>
+                  "Odogwu u bad...I loooove it. The lashes are on fleek. To go
+                  out come dey hungry me."
+                </p>
+              </blockquote>
+            </div>
+          </div>
+          <div>
+            <div class="testimonial-2">
+              <div class="d-flex v-card align-items-center mb-4">
+                <img
+                  src="images/person_3.jpg"
+                  alt="Image"
+                  class="img-fluid mr-3"
+                />
+                <span>Mike Fisher</span>
+              </div>
+              <blockquote>
+                <p>
+                  "Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Voluptatem, deserunt eveniet veniam. Ipsam, nam, voluptatum"
+                </p>
+              </blockquote>
+            </div>
+          </div>
+          <div>
+            <div class="testimonial-2">
+              <div class="d-flex v-card align-items-center mb-4">
+                <img
+                  src="images/person_4.jpg"
+                  alt="Image"
+                  class="img-fluid mr-3"
+                />
+                <span>Mike Fisher</span>
+              </div>
+              <blockquote>
+                <p>
+                  "Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Voluptatem, deserunt eveniet veniam. Ipsam, nam, voluptatum"
+                </p>
+              </blockquote>
+            </div>
+          </div>
+          <div>
+            <div class="testimonial-2">
+              <div class="d-flex v-card align-items-center mb-4">
+                <img
+                  src="images/person_3.jpg"
+                  alt="Image"
+                  class="img-fluid mr-3"
+                />
+                <span>Mike Fisher</span>
+              </div>
+              <blockquote>
+                <p>
+                  "Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Voluptatem, deserunt eveniet veniam. Ipsam, nam, voluptatum"
+                </p>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+        <div class="text-center mt-5">
+          <a href="#" class="btn btn-primary custom-prev">Prev</a>
+          <a href="#" class="btn btn-primary custom-next">Next</a>
+        </div>
+      </div>
+      <div class="site-section">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-5 mr-auto">
+              <blockquote class="testimonial_38201">
+                <p class="serif h3 font-weight-bold testimonial_38201">
+                  <span class="text-primary">&ldquo;</span>a 'real' experience
+                  with professional approach at all times...I would highly
+                  recommend Jernie and her team!!!<span class="text-primary"
+                    >&rdquo;</span
+                  >
+                </p>
+                <p>
+                  &mdash; Victoria, <span class="text-muted">Customer</span>
+                </p>
+              </blockquote>
+            </div>
+            <div class="col-md-6">
+              <div class="d-flex align-items-center">
+                <div
+                  class="bg-img-1 mr-md-4 mt-md-5"
+                  style="background-image: url('images/about_3.jpg')"
+                ></div>
+                <div
+                  class="bg-img-1"
+                  style="background-image: url('images/about_2.jpg')"
+                ></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer
+        class="site-footer bg-image overlay"
+        style="background-image: url('images/hero_4.webp')"
+      >
+        <div class="container">
+          <div class="row">
+            <div class="col-12 text-center mb-5">
+              <h3 class="font-weight-bold serif text-white">
+                Beauty by Jernie
+              </h3>
+            </div>
+            <div class="col-12 text-center mb-5">
+              <a href="#" class>Home</a>
+              <span class="mx-3"></span>
+              <a href="#" class>About</a>
+              <span class="mx-3"></span>
+              <a href="#" class>Services</a>
+              <span class="mx-3"></span>
+              <a href="#" class>Contact</a>
+            </div>
+            <div class="col-12">
+              <div class="social_29128 white text-center">
+                <a href="#"><span class="icon-twitter"></span></a>
+                <a href="#"><span class="icon-instagram"></span></a>
+                <a href="#"><span class="icon-facebook"></span></a>
+                <a href="#"><span class="icon-whatsapp"></span></a>
+              </div>
+            </div>
+          </div>
+          <div class="row pt-5 mt-5 text-center">
+            <div class="col-md-12">
+              <div class="border-top pt-5">
+                <p class="small">
+                  Copyright &copy;
+                  <script>
+                    document.write(new Date().getFullYear())
+                  </script>
+                  All rights reserved | Beauty by Jernie
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/jquery-migrate-3.0.0.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.animateNumber.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/bootstrap-datepicker.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/main.js"></script>
+
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || []
+      function gtag() {
+        dataLayer.push(arguments)
+      }
+      gtag('js', new Date())
+
+      gtag('config', 'UA-23581568-13')
+    </script>
+    <script
+      defer
+      src="https://static.cloudflareinsights.com/beacon.min.js/v8b253dfea2ab4077af8c6f58422dfbfd1689876627854"
+      integrity="sha512-bjgnUKX4azu3dLTVtie9u6TKqgx29RBwfj3QXYt5EKfWM/9hPSAI/4qcV5NACjwAo8UtTeWefx6Zq5PHcMm7Tg=="
+      data-cf-beacon='{"rayId":"7f190bf07ca20b36","version":"2023.7.0","b":1,"token":"cd0b4b3a733644fc843ef0b185f98241","si":100}'
+      crossorigin="anonymous"
+    ></script>
+  </body>
+
+  <!-- Mirrored from preview.colorlib.com/theme/wellspa/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 04 Aug 2023 19:01:27 GMT -->
+</html>
